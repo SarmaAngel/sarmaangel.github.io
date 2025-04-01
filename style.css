@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    background-color: #fef9f5;
+    color: #766DC1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2rem; /* Larger base text */
+}
+
+h1, h2 {
+    color: #9F81CD;
+}
+
+a {
+    color: #F198AF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EBB2D6;
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #FBD1D3;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: #766DC1;
+}
+
+/* Container Styles */
+.containerifluid {
+    padding: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    border: 5px solid #EBB2D6;
+    border-radius: 10px;
+}
+
+/* Footer Links */
+p a {
+    display: block;
+    margin: 5px 0;
+    font-size: 1.1em;
+}
