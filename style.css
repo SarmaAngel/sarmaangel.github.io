@@ -12,7 +12,7 @@ body {
     font-size: 1.2rem; /* Larger base text */
 }
 
-h1{
+h1 {
     color: #9F81CD;
     font-family: 'Dancing Script', cursive; /* Fancy, handwritten font */
 }
@@ -33,26 +33,39 @@ a:hover {
 }
 
 /* Navbar Styles */
-nav {
+.navbar {
     background-color: #FBD1D3;
     padding: 10px 0;
-    text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    color: #766DC1;
+    text-decoration: none;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+.navbar-brand:hover {
+    color: #9F81CD;
 }
 
-nav ul li a {
+.navbar-nav .nav-link {
     font-weight: bold;
     color: #766DC1;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #9F81CD;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: #FBD1D3;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(118, 109, 193, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 /* Container Styles */
