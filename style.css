@@ -4,7 +4,7 @@
 /* General Styles */
 body {
     background-color: #fef9f5;
-    color: #766DC1;
+    color: #4A3A8C; /* Darker text color for better contrast */
     font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
@@ -12,81 +12,75 @@ body {
     font-size: 1.2rem;
 }
 
-h1 {
-    color: #9F81CD;
-    font-family: 'Dancing Script', cursive;
-    font-weight: bold;
-}
-
-h2 {
-    color: #9F81CD;
+h1, h2 {
+    color: #7A5FAF; /* Darker purple for better contrast */
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
 }
 
 h3 {
-    color: #9F81CD;
+    color: #5A4790; /* Adjusted to improve readability */
     font-weight: bold;
 }
 
 a {
-    color: #F198AF;
+    color: #D14C6F; /* Darker pink for better contrast */
     text-decoration: none;
 }
 
 a:hover {
-    color: #EBB2D6;
+    color: #B33A5C; /* Slightly darker hover color */
     text-decoration: underline;
 }
 
 /* Navbar Styles */
 .navbar {
-    background-color: #FBD1D3;
+    background-color: #F9B1B3; /* Slightly darker pink for better contrast */
     padding: 10px 0;
 }
 
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
-    color: #766DC1;
+    color: #4A3A8C; /* Darker text color for better contrast */
     text-decoration: none;
 }
 
 .navbar-brand:hover {
-    color: #9F81CD;
+    color: #7A5FAF; /* Adjusted hover color */
 }
 
 .navbar-nav .nav-link {
     font-weight: bold;
-    color: #766DC1;
+    color: #4A3A8C; /* Darker text color */
     margin: 0 10px;
 }
 
 .navbar .nav-link.active {
-    background-color: #FBD1D3;
-    color: #766DC1;
+    background-color: #F9B1B3; /* Adjusted background for better contrast */
+    color: #4A3A8C; /* Darker text color */
     font-weight: bold;
-    border-bottom: 2px solid #9F81CD;
+    border-bottom: 2px solid #7A5FAF; /* Adjusted border color */
     padding-bottom: 5px;
 }
 
 .navbar .nav-link.active:hover {
-    color: #9F81CD;
-    background-color: #FEE2E5;
-    border-bottom: 2px solid #F198AF;
+    color: #7A5FAF; /* Adjusted hover color */
+    background-color: #F8A1A5; /* Slightly darker hover background */
+    border-bottom: 2px solid #D14C6F; /* Adjusted border color */
 }
 
 .navbar-nav .nav-link:hover {
-    color: #9F81CD;
+    color: #7A5FAF; /* Adjusted hover color */
 }
 
 .navbar-toggler {
     border: none;
-    background-color: #FBD1D3;
+    background-color: #F9B1B3;
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(118, 109, 193, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(74, 58, 140, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 /* Container Styles */
@@ -101,7 +95,7 @@ a:hover {
 /* Image Styling */
 img {
     max-width: 100%;
-    border: 5px solid #EBB2D6;
+    border: 5px solid #D14C6F; /* Darker border for better contrast */
     border-radius: 10px;
 }
 
@@ -110,6 +104,11 @@ p a {
     display: block;
     margin: 5px 0;
     font-size: 1.1em;
+    color: #D14C6F; /* Darker link color */
+}
+
+p a:hover {
+    color: #B33A5C; /* Adjusted hover color */
 }
 
 /* Styles for embedded videos */
@@ -119,7 +118,7 @@ p a {
     height: 0;
     overflow: hidden;
     margin: 20px 0;
-    border: 5px solid #EBB2D6;
+    border: 5px solid #D14C6F; /* Darker border for better contrast */
     border-radius: 10px;
 }
 
@@ -147,7 +146,7 @@ p a {
 
 .page-title {
     font-size: 2.5rem;
-    color: #766DC1;
+    color: #4A3A8C; /* Darker text color */
     margin-bottom: 20px;
 }
 
@@ -157,7 +156,7 @@ p a {
 
 .project-title {
     font-size: 1.8rem;
-    color: #9F81CD;
+    color: #7A5FAF; /* Darker purple */
     margin-bottom: 15px;
 }
 
@@ -168,7 +167,7 @@ p a {
 }
 
 .section-divider {
-    border: 1px solid #EBB2D6;
+    border: 1px solid #D14C6F; /* Darker border for better contrast */
     margin: 30px 0;
     border-width: 2px;
 }
@@ -185,7 +184,7 @@ p a {
 
 .profile-pic {
     max-width: 100%;
-    border: 5px solid #EBB2D6;
+    border: 5px solid #D14C6F; /* Darker border for better contrast */
     border-radius: 50%;
     margin-bottom: 20px;
 }
@@ -198,7 +197,7 @@ p a {
 
 .section-title {
     font-size: 1.8rem;
-    color: #9F81CD;
+    color: #7A5FAF; /* Darker purple */
     margin-bottom: 15px;
 }
 
@@ -220,11 +219,11 @@ p a {
 
 .contact-section a {
     font-size: 1.1rem;
-    color: #F198AF;
+    color: #D14C6F; /* Darker link color */
     text-decoration: none;
 }
 
 .contact-section a:hover {
-    color: #EBB2D6;
+    color: #B33A5C; /* Adjusted hover color */
     text-decoration: underline;
 }
