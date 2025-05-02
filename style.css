@@ -6,12 +6,10 @@ body {
     background-color: #fef9f5;
     color: #766DC1;
     font-family: 'Playfair Display', serif;
-    /* Elegant serif font for body text */
     margin: 0;
     padding: 0;
     text-align: center;
     font-size: 1.2rem;
-    /* Larger base text */
 }
 
 h1 {
@@ -64,19 +62,18 @@ a:hover {
     margin: 0 10px;
 }
 
-/* Ensure active navbar links match the rest of the links */
 .navbar .nav-link.active {
-    background-color: #FBD1D3; /* Match the navbar background for subtle emphasis */
-    color: #766DC1; /* Ensure it aligns with the theme */
-    font-weight: bold; /* Keep the bold styling */
-    border-bottom: 2px solid #9F81CD; /* Add a bottom border for emphasis */
-    padding-bottom: 5px; /* Adjust spacing for the border */
+    background-color: #FBD1D3;
+    color: #766DC1;
+    font-weight: bold;
+    border-bottom: 2px solid #9F81CD;
+    padding-bottom: 5px;
 }
 
 .navbar .nav-link.active:hover {
-    color: #9F81CD; /* Use a slightly darker shade for hover */
-    background-color: #FEE2E5; /* Add a soft hover background */
-    border-bottom: 2px solid #F198AF; /* Change border color on hover */
+    color: #9F81CD;
+    background-color: #FEE2E5;
+    border-bottom: 2px solid #F198AF;
 }
 
 .navbar-nav .nav-link:hover {
@@ -93,7 +90,7 @@ a:hover {
 }
 
 /* Container Styles */
-.containerifluid {
+.container-fluid {
     padding: 20px;
 }
 
@@ -118,12 +115,12 @@ p a {
 /* Styles for embedded videos */
 .responsive-video {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
     margin: 20px 0;
-    border: 5px solid #EBB2D6; /* Add border similar to the image */
-    border-radius: 10px; /* Add rounded corners */
+    border: 5px solid #EBB2D6;
+    border-radius: 10px;
 }
 
 .responsive-video iframe {
@@ -135,10 +132,99 @@ p a {
     border: none;
 }
 
-/* Optional: Adjust the container width for larger videos */
 @media (min-width: 768px) {
     .responsive-video {
-        max-width: 800px; /* Set a larger max width */
-        margin: 20px auto; /* Center the video */
+        max-width: 800px;
+        margin: 20px auto;
     }
+}
+
+/* Projects Page Specific Styles */
+.projects-page {
+    background-color: #fef9f5;
+    padding: 20px;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    color: #766DC1;
+    margin-bottom: 20px;
+}
+
+.project-section {
+    margin-bottom: 40px;
+}
+
+.project-title {
+    font-size: 1.8rem;
+    color: #9F81CD;
+    margin-bottom: 15px;
+}
+
+.project-description {
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.section-divider {
+    border: 1px solid #EBB2D6;
+    margin: 30px 0;
+    border-width: 2px;
+}
+
+/* Index Page Specific Styles */
+.home-page {
+    background-color: #fef9f5;
+    padding: 20px;
+}
+
+.bio-section {
+    margin-bottom: 40px;
+}
+
+.profile-pic {
+    max-width: 100%;
+    border: 5px solid #EBB2D6;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.bio-description {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    color: #9F81CD;
+    margin-bottom: 15px;
+}
+
+/* Contact Page Specific Styles */
+.contact-page {
+    background-color: #fef9f5;
+    padding: 20px;
+}
+
+.contact-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.contact-section a {
+    font-size: 1.1rem;
+    color: #F198AF;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    color: #EBB2D6;
+    text-decoration: underline;
 }
